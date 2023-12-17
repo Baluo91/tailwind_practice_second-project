@@ -9,15 +9,20 @@
 <body>
     
     <section class="flex items-center justify-center h-screen">
-            <div class="bg-[#5C649C] text-white w-4/5 md:w-[480px] max-h-566 tracking-wider p-5 rounded-lg drop-shadow-2xl">
-                <h2 class="">How to</h2> <br>
-                <p class="">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus quod fugiat similique sequi repudiandae.!</p>
+            <div class="bg-[#5C649C] text-white w-4/5 md:w-[480px] tracking-wider p-5 rounded-lg drop-shadow-2xl">
+                <h2 class="uppercase text-center text-xs md:text-left mb-2">How to</h2> <br>
+                <p class="text-center md:text-left mb-2 font-bold text-sm">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus quod fugiat similique sequi repudiandae.!</p>
                 <!--Form-->
-                <div class="my-3">
-                    <input type="email" placeholder="Enter your email address" class="bg-transparent">
-                    <button>Sign me up!</button>
+                <div class="flex flex-col md:flex-row">
+                    <input type="email" placeholder="Enter your email address" 
+                    class="bg-[#303A71] border-2 border-[#737AA9] text-center 
+                    placeholder:text-lg placeholder:text-white
+                    focus:outline-none
+                    p-2 mb-2 h-11
+                    md:mb-0 md:mr-2 md:w-72">
+                    <button class="p-2 h-11 bg-[#A974F4] rounded-sm">Sign me up!</button>
                 </div>
-                <p>By signing up, you agree to our <a href="#" class="">Term of Use</a> and acknowledge the data practices in our <a href="#" class="">Privacy Policy. </a> You may unsubscribe at any time.</p>
+                <p class="text-xs mt-2">By signing up, you agree to our <a href="#" class="">Term of Use</a> and acknowledge the data practices in our <a href="#" class="">Privacy Policy. </a> You may unsubscribe at any time.</p>
             </div>
     </section>
     
